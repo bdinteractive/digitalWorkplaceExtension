@@ -1,0 +1,20 @@
+/*!
+ * Digital Workplace Extension using Bootstrap v1.0.0 (http://mypbs.org)
+ */
+
+// Core Global
+@import "bootstrap/bootstrap";
+@import "pbs-dwe/variables";
+
+// Modules
+@import "../libs/webslide/full-width-menu/css/_color-theme";
+@import "../libs/webslide/full-width-menu/css/_webslidemenu";
+
+// PBS
+@import "pbs-dwe/global";
+@import "pbs-dwe/pri-navigation";
+@import "pbs-dwe/pbs-icons";
+@import "pbs-dwe/footer";
+@import "pbs-dwe/right-floating-nav";
+@import "pbs-dwe/tabs";
+@import "pbs-dwe/utilities";

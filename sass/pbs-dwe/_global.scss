@@ -1,0 +1,87 @@
+body {
+	background: #00769d;
+	color: #333;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	/*padding-top: 25px;*/
+	background-position: top center;
+}
+@media only screen and (min-width : 1440px) {
+	body{
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: top center;
+
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+.pbs-content {
+	background: white;
+	border-top: solid 6px;
+	margin-bottom: 25px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+/* Bootsrap Overrides */
+
+.panel-heading {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.panel-heading small {
+	font-size: 14px;
+}
+.panel-body h3 {
+	margin-top: 0;
+}
+.code-block {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+	font-size: 11px;
+}
+.modal-body h2,
+.modal-body h3 {
+	margin: 10px 0 20px;
+}
+
+.nav-tabs {
+	margin-bottom: 40px;
+}
+.nav-tabs .btn {
+	margin-left: 15px;
+    margin-top: 5px;
+}
+
+/* Bootsrap Extras - Spacing */
+
+.sm-padding {
+	padding: 10px;
+}
+.standard-padding {
+	padding: 10px;
+}
+.md-padding {
+	padding: 20px;
+}
+.lg-padding {
+	padding: 30px;
+}
+
+.sm-bottom {
+	margin-bottom: 10px;
+}
+.standard-bottom {
+	margin-bottom: 10px;
+}
+.md-bottom {
+	margin-bottom: 20px;
+}
+.lg-bottom {
+	margin-bottom: 30px;
+}
+.xlg-bottom {
+	margin-bottom: 40px;
+}
