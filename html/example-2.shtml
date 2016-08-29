@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PBS Digital Workplace Extension</title>
+
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<!-- Global CSS -->
+	<link rel="stylesheet" type="text/css" media="screen" href="../styles/pbs-dwe-bootstrap.css">
+
+	<!-- Webslide Mega-menu -->
+	<link rel="stylesheet" href="../libs/webslide/full-width-menu/font-awesome/css/font-awesome.min.css" />
+
+	<!-- Webfonts -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+
+	<style type="text/css">
+		.container-fluid {
+			width: 80%;
+			position: relative;
+			z-index: 1;
+		}
+		header.pbs-siteContainer {
+			height: 320px;
+		}
+		.pbs-site-contaner-background {
+			height: 650px;
+			position: absolute;
+			z-index: 0;
+			width: 100%;
+			top: 0;
+			left: 0;
+			right: 0;
+			background-image: url('../images/515742016.jpg');
+			background-size: cover;
+			background-position: top center;
+		}
+		body {
+			background-color: #fff;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+	<div class="pbs-site-contaner-background"></div>
+
+
+	<header class="container-fluid pbs-siteContainer padding-top-bottom-large">
+
+		<div class="row">
+
+			<div class="col-md-12">
+
+				<img class="" src="../images/site-connector-logo.png" alt="" />
+
+			</div>
+
+		</div><!-- /end row -->
+
+	</header>
+
+	<div class="container-fluid">
+
+		<div class="pbs-content row">
+
+			<div class="col-md-12">	
+
+	        	<h2>myPBS Digital Workplace Extension</h2>
+
+	        	<p class="xlg-bottom">Learn more about <a href="#">myPBS Homebase</a> and how it works</p>
+
+		        <!-- Nav tabs -->
+		        <ul class="nav nav-tabs" role="tablist">
+		            <li role="presentation" class="active"><a href="#my-extensions" aria-controls="my-extensions" role="tab" data-toggle="tab">My Extensions</a></li>
+		            <li role="presentation"><a href="#extension-01" aria-controls="extension-01" role="tab" data-toggle="tab">Digital Workplace Extensions</a></li>
+		            <button type="button" class="btn btn-sm btn-default">Add Another Extension</button>
+		        </ul>
+
+
+		        <div class="tab-content">
+
+		            <div role="tabpanel" class="tab-pane active" id="my-extensions">
+
+		                <div class="panel panel-default">
+		                    <div class="panel-heading">Your myPBS Digital Workplace Extension</div>
+		                    <div class="panel-body">
+
+		                        <div class="row">
+		                                        
+		                            <div class="col-md-12">
+
+		                            	<p class="md-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor nunc vel laoreet consectetur. In facilisis pulvinar sem at rhoncus. Vestibulum consequat at mauris nec euismod. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis lobortis suscipit urna eget blandit. Vestibulum vel tempus leo, non finibus ipsum. Nunc hendrerit urna quis leo mattis eleifend.</p>
+
+																	<div class="panel panel-default">
+																		<ul class="list-group">
+																			<li class="list-group-item"><a href="">Website Link Name</a></li>
+																			<li class="list-group-item"><a href="">Website Link Name</a></li>
+																			<li class="list-group-item"><a href="">Website Link Name</a></li>
+																			<li class="list-group-item"><a href="">Website Link Name</a></li>
+																			<li class="list-group-item"><a href="">Website Link Name</a></li>
+																		</ul>
+																	</div>
+
+		                            </div>
+
+		                        </div>
+
+		                    </div>
+		                </div>
+
+		            </div>
+
+		            <div role="tabpanel" class="tab-pane" id="extension-01">
+
+
+		                <div class="panel panel-default">
+		                    <div class="panel-heading">About Your Website</div>
+		                    <div class="panel-body">
+
+		                        <div class="row">
+		                            
+		                            <div class="col-md-6">
+
+		                                <div class="form-group">
+		                                    <label for="">Text that will appear as the link to your website.</label>
+		                                    <input type="text" class="form-control" id="" placeholder="Website Link Name">
+		                                </div>
+
+		                                <div class="form-group">
+		                                    <label for="">URL we can link back to your website.</label>
+		                                    <input type="text" class="form-control" id="" placeholder="http://example.com">
+		                                </div>
+
+		                            </div>
+
+		                            <div class="col-md-6">
+
+		                                <h3>Where to place your website?</h3>
+
+		                                <p class="md-bottom">myPBS Digital Workplace has several content areas.</p>
+
+		                                <div class="form-group">
+		                                    <label for="">Select one area where your website should appear.</label>
+		                                    <select id="" class="form-control">
+		                                        <option selected="selected" disabled="disabled">- Choose Option</option>
+		                                        <option>Watch Video</option>
+		                                    </select>
+		                                </div>
+
+		                            </div>
+
+		                        </div>
+
+		                    </div>
+		                </div><!-- /end .panel -->
+
+
+		                <div class="panel panel-default">
+		                    <div class="panel-heading">About Search</div>
+		                    <div class="panel-body">
+
+		                        <div class="row">
+		                            <div class="col-md-12">
+
+		                                <h3>Password Protected?</h3>
+
+		                                <p class="md-bottom">If your website is password protected please provide the administrative login and password.</p>
+
+		                            </div>
+		                        </div>
+
+		                        <div class="row">
+		                            
+		                            <div class="col-md-6">
+
+		                                <div class="form-group">
+		                                    <label for="">Login to the website we are linking to.</label>
+		                                    <input type="text" class="form-control" id="" placeholder="Login">
+		                                </div>
+
+		                            </div>
+
+		                            <div class="col-md-6">
+
+		                                <div class="form-group">
+		                                    <label for="">Password to the website we are linking to.</label>
+		                                    <input type="password" class="form-control" id="" placeholder="Password">
+		                                </div>
+
+		                            </div>
+
+		                        </div>
+
+		                    </div>
+		                </div><!-- /end .panel -->
+
+
+		                <div class="panel panel-default">
+		                    <div class="panel-heading">Create Your Landing Page <small><a href="#">See what your landing page will look like</a></small></div>
+		                    <div class="panel-body">
+
+		                        <div class="row">
+		                            
+		                            <div class="col-md-6">
+
+		                                <h3>Landing Page Image.</h3>
+
+		                                <p>Image must be .jpeg 300 x 400 pixes at 72dpi.</p>
+
+		                                <div class="form-group">
+		                                    <label for="">You can change it later.</label>
+		                                    <input type="file" id="">
+		                                </div>
+
+		                            </div>
+
+		                            <div class="col-md-6">
+
+		                                <div class="row">
+
+		                                    <div class="col-md-6">
+
+		                                        <img src="http://placehold.it/150x150" width="150" height="150">
+
+		                                    </div>
+
+		                                    <div class="col-md-6">
+
+		                                        <p>This is the image you've uploaded.</p>
+
+		                                        <p>Upload another image to replace it.</p>
+
+		                                    </div>
+
+		                                </div>
+
+		                            </div>
+
+		                        </div>
+
+		                        <div class="row">
+		                        
+		                            <div class="col-md-12">
+
+		                                <h3>Introductory paragraph.</h3>
+
+		                                <div class="form-group">
+		                                    <label for="">400 characters maximum. You can change it later.</label>
+		                                    <textarea class="form-control" rows="5" placeholder="This is your introductory paragragh."></textarea>
+		                                </div>
+
+		                            </div>
+
+		                        </div>
+
+		                    </div>
+		                </div><!-- /end .panel -->
+
+		                <div class="row">
+		                    <div class="col-md-12 text-center">
+		                        <p class="md-padding"><button type="button" data-toggle="modal" data-target="#submitModal" class="btn btn-lg btn-primary">Submit</button></p>
+		                    </div>
+		                </div>
+
+
+		                <div class="panel panel-default">
+		                    <div class="panel-body">
+
+		                        <div class="row">
+		                        
+		                            <div class="col-md-12">
+
+		                                <h3>Here's Your code.</h3>
+
+		                                <textarea class="form-control code-block" rows="5" placeholder=""><img src=_images/iphones.png class=left style=margin-right:30px><div class=landing-content><h2>Responsive, Retina Ready & Clean</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<ul class=list-icon-bullets><li class="left bullet"><img src=_images/icon-purple-arrow.png><li><h3>Awesome design</h3><p>Lorem ipsum dolor sit amet consectetur<li class="left bullet"><img src=_images/icon-purple-flag.png><li><h3>Fully Responsive</h3><p>Lorem ipsum dolor sit amet consectetur<li class="left bullet"><img src=_images/icon-purple-lightingBolt.png><li><h3>Retina Ready</h3><p>Lorem ipsum dolor sit amet consectetur</ul><br><a class=btn-purple href=#>Primary button</a> <a class=read-more href=#>read more →</a></div></textarea>
+
+		                            </div>
+
+		                        </div>
+
+		                         <div class="row">
+		                        
+		                            <div class="col-md-12 text-center">
+
+		                                <p class="md-padding"><button type="button" data-toggle="modal" data-target="#codeCopyModal" class="btn btn-lg btn-success">Copy Code</button></p>
+
+		                            </div>
+
+		                        </div>
+
+		                    </div>
+		                </div><!-- /end .panel -->
+
+
+		                <div class="row">
+		                    <div class="col-md-12 text-center">
+		                        <p class="md-padding"><button type="button" class="btn btn-lg btn-danger">Delete This Landing Page</button></p>
+		                    </div>
+		                </div>
+
+
+		            </div><!-- /end extension-01 -->
+
+		        </div><!-- /end tab-content -->
+
+	        </div><!-- /col-md-12 -->
+		
+		</div><!-- /row -->
+
+	</div><!-- /container-fluid -->
+
+
+	<!-- Primary Footer include -->
+	<!--#include file="includes/footer.ssi" -->
+
+
+	<!-- MODALS Start Here -->
+
+    <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+            <div class="modal-body">
+                <h3>Almost done!</h3>
+                <p>An email has been sent to you with all the details.</p>
+                <p>Get your <a href="#">embed code</a> to place it on your Website.</p>
+                <p>View <a href="#">your new Landing page</a>.</p>
+                <p>Optional, get myPBS <a href="#">stylesheet</a>.</p>
+                <p>Regards, myPBS Team.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="codeCopyModal" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+            <div class="modal-body">
+                <h2 class="text-center"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Copied</h2>
+                <p>Paste this code directly into the HTML portion  of your site to complete the process.</p>
+                <p>Learn more about <a href="#">pasting into your website</a>.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS End Here -->
+
+
+	<!-- Load JavaScript at the Bottom -->
+	<script src="../js/min/main.min.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+
+		});
+	</script>
+
+</body>
+</html>
